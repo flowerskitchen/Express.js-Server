@@ -11,8 +11,6 @@ const port = 3000;
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 
-
-
 // Custom middleware example
 app.use((req, res, next) => {
     console.log(`Request received at ${new Date().toISOString()}`);
