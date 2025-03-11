@@ -3,8 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 
-
-
 // Create an Express application
 const app = express();
 const port = 3000;
