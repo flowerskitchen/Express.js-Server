@@ -7,6 +7,8 @@ const morgan = require('morgan');
 const app = express();
 const port = 3000;
 
+
+
 // Middleware for logging and parsing JSON requests
 app.use(morgan('dev'));
 app.use(bodyParser.json());
