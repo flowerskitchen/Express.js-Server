@@ -17,8 +17,6 @@ app.use((req, res, next) => {
     next();
 });
 
-
-
 // Sample data
 let users = [
     { id: 1, name: 'John Doe', email: 'john@example.com' },
